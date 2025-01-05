@@ -1,9 +1,24 @@
+<?php
+
+if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8083') {
+	$retroTreatment = false;
+} else if($_SERVER['HTTP_HOST'] == 'retro.hannahap.com') {
+	$retroTreatment = true;
+} else if($_SERVER['HTTP_HOST'] == 'tech.hannahap.com') {
+	$retroTreatment = false;
+} else {
+	$retroTreatment = true;
+}
+
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>Hannah HQ</title>
+	<?php if($retroTreatment == false) {print('<link rel="stylesheet" type="text/css" href="../assets/style.css">');} ?>
 </head>
 <body>
 	<center><h1>Hi! Welcome to Hannah HQ!</h1></center>
@@ -20,8 +35,14 @@
 		<li>Software I'm running and where to find it</li>
 		<li>...and more!</li>
 	</ul>
+	<p><?php 
+		if($retroTreatment == false) {
+			print('You can visit this site on a retro computer without any SSL or CSS! Visit <a href="http://retro.hannahap.com">retro.hannahap.com</a>.');
+		} else if ($retroTreatment == true) {
+			print('To visit this site with SSL and some CSS styling, visit <a href="https://tech.hannahap.com">tech.hannahap.com</a>.');
+		}
+	?></p>
 	<p>This site and its subpages are written to be viewable on a retro device (oldest tested thus far is Mac OS 7.5 on a 68030 with Netscape 2.02). However most external links will NOT be compatible because of HTTPS or modern code.</p>
-	<p>To view securely, visit <a href="https://tech.hannahap.com">tech.hannahap.com</a>, to visit without SSL, visit <a href="http://retro.hannahap.com">retro.hannahap.com</a>.</p>
 	<br />
 	<br />
 	<table>
@@ -44,7 +65,7 @@
 				<ul>
 					<li>Follow me on Mastodon! <a href="https://oldbytes.space/@hannahpatellis">@hannahpatellis@oldbytes.space</a></li>
 					<li>Check out what <a href="/page/general.php">resources, software, hardware, and tools I'm using and YouTubers I'm watching here</a>!</li>
-					<li><a href="wishlist.php">My wishlist</a></li>
+					<li><a href="/page/wishlist.php">My wishlist</a></li>
 					<li><a href="#dailydrivers">My daily-drivers</a></li>
 					<li><a href="#servers">My servers</a></li>
 					<li><a href="#studio">My collection</a></li>
@@ -57,14 +78,14 @@
 	<h3 id="dailydrivers">My daily-drivers</h3>
 	<table>
 		<tr>
-			<td><img src="assets/img/macbookpro.jpg" height="250px" width="250px" /></td>
+			<td><img src="assets/img/mbp_m1.jpg" height="250px" width="250px" /></td>
 			<td>
 				<h4>Apple MacBook Pro (14-inch, 2021, M1 Pro)</h4>
 				<p>Status: Running macOS Sequoia 15.2</p>
 			</td>
 		</tr>
 		<tr>
-			<td><img src="assets/img/thinkpadx1carbon.jpeg" height="250px" width="250px" /></td>
+			<td><img src="assets/img/x1.jpg" height="250px" width="250px" /></td>
 			<td>
 				<h4>Lenovo ThinkPad X1 Carbon (Gen 6 2018, Intel Core i7-8650U)</h4>
 				<p>Status: Running Ubuntu 24.10</p>
@@ -76,17 +97,17 @@
 	<h3 id="servers">My servers</h3>
 	<table>
 		<tr>
-			<td><a href="/page/etower_533id2.php"><img src="assets/img/etower_533id2.jpg" height="250px" width="250px" /></a></td>
-			<td>
-				<a href="/page/etower_533id2.php"><h4>eMachines eTower 533id2</h4></a>
-				<p>Status: Running Windows 2000 Server SP4</p>
-			</td>
-		</tr>
-		<tr>
 			<td><a href="/page/homelab.php"><img src="assets/img/homeserver.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/homelab.php"><h4>My Home Lab/Home Server</h4></a>
 				<p>Status: Running Ubuntu Server 24.04.1 LTS</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="/page/etower_533id2.php"><img src="assets/img/etower_533id2.jpg" height="250px" width="250px" /></a></td>
+			<td>
+				<a href="/page/etower_533id2.php"><h4>eMachines eTower 533id2</h4></a>
+				<p>Status: Running Windows 2000 Server SP4</p>
 			</td>
 		</tr>
 	</table>
@@ -164,17 +185,15 @@
 				<p>Status: Running Buildroot</p>
 			</td>
 		</tr>
-		<tr>
-			<td>
-				<h4>Studio archive</h4>
-				<ul>
-					<li><a href="/page/trs_80_100.php">Radio Shack TRS-80 Model 100</a></li>
-					<li><a href="/page/powermac_5500.php">Apple Power Macintosh 5500/225</a></li>
-					<li><a href="/page/ibook_g3_clamshell.php">Apple iBook G3 (1st gen clamshell)</a></li>
-				</ul>
-			</td>
-		</tr>
 	</table>
+	<br />
+	<br />
+	<h4>Studio archive</h4>
+	<ul>
+		<li><a href="/page/trs_80_100.php">Radio Shack TRS-80 Model 100</a></li>
+		<li><a href="/page/powermac_5500.php">Apple Power Macintosh 5500/225</a></li>
+		<li><a href="/page/ibook_g3_clamshell.php">Apple iBook G3 (1st gen clamshell)</a></li>
+	</ul>
 	<br />
 	<br />
 	<center><img src="assets/img/madewith.gif" height="31px" width="88px" /></center>

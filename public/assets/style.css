@@ -1,3 +1,10 @@
 body {
   max-width: 900px;
 }
+
+th {
+  text-align: left;
+}
+img {
+  margin-right: 30px;
+}

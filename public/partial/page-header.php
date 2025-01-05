@@ -1,11 +1,13 @@
 <?php
 
-if($_SERVER['HTTP_HOST'] == 'localhost') {
+if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8083') {
 	$retroTreatment = false;
 } else if($_SERVER['HTTP_HOST'] == 'retro.hannahap.com') {
 	$retroTreatment = true;
 } else if($_SERVER['HTTP_HOST'] == 'tech.hannahap.com') {
 	$retroTreatment = false;
+} else {
+	$retroTreatment = true;
 }
 
 ?>

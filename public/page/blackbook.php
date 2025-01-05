@@ -7,7 +7,7 @@ require_once("../partial/page-header.php");
 
 <h2><?php print($title); ?></h2>
 
-<img src="img/blackbook.jpg" height="250px" width="250px" />
+<img src="../assets/img/blackbook.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
 <p>Status: Running Mac OS X Leopard + Windows Vista Business</p>
 <ul>
