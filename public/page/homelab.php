@@ -1,0 +1,79 @@
+<?php
+
+$title = "Home Lab/Home Server";
+require_once("../partial/page-header.php");
+
+?>
+
+<h2><?php print($title); ?></h2>
+
+<img src="../assets/img/homeserver.jpg" height="250px" width="250px" />
+<h3>Status + specifications</h3>
+<p>Status: Running Ubuntu Server 24.04.1 LTS x86_64</p>
+<ul>
+  <li>Built: Mid-2023</li>
+  <li>microATX form-factor</li>
+  <li>Intel Core i7-11700 2.5 GHz 8-Core CPU</li>
+  <li>MSI MAG B560M MORTAR WIFI Motherboard</li>
+  <li>2x Neo Forza FAYE 16 GB DDR4-3200 RAM</li>
+  <li>2x Silicon Power A55 4TB SATA SSD: Mirrored ZFS storage drives</li>
+  <li><a href="https://www.amazon.com/dp/B0B25NXWC7">Crucial P3 Plus 1TB PCIe M.2 SSD</a>: Boot drive</li>
+  <li><a href="https://www.amazon.com/dp/B09PBMQ8YY">TPM 2.0 Module</a></li>
+</ul>
+<br />
+
+<h3>Case build</h3>
+<ul>
+  <li><a href="https://www.amazon.com/ASUS-AP201-MicroATX-Tempered-Tool-Free/dp/B0B99J7T35">ASUS Prime AP201 case</a>: black, H 13.78" x W 8.07" x D 18.11”</li>
+  <li>Thermaltake Smart 500W PSU</li>
+  <li>2x <a href="https://www.amazon.com/dp/B0736GRX7W">CableMod ModMesh Sleeved SATA 3 cables</a>: white, 30cm</li>
+  <li><a href="https://www.amazon.com/dp/B07654PNFQ">Noctua NF-F12 case fan</a>: black, 4-Pin, 120mm</li>
+  <li><a href="https://www.amazon.com/dp/B08HH6G48J">Noctua NH-U9S CPU cooler</a>: black, 92mm</li>
+</ul>
+<br />
+
+<h3>Software I'm running</h3>
+<ul>
+  <li><a href="https://jellyfin.org">Jellyfin</a>: Media server</li>
+  <li><a href="https://www.photoprism.app">PhotoPrism</a>: Photo database/host</li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04">Docker</a></li>
+  <li><a href="https://www.portainer.io/install">Portainer Community Edition</a>: Docker management</li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04">Apache</a>: Web server</li>
+  <li><a href="https://pi-hole.net">Pi-hole</a>: DNS server + network-wide ad blocker</li>
+  <li><a href="https://github.com/atauenis/webone">WebOne</a>: HTTP 1.x proxy that makes old web browsers usable again in the Web 2.0 world</li>
+  <li><a href="https://nginxproxymanager.com">Nginx Proxy Manager</a>: Expose web services on your network</li>
+  <li><a href="https://github.com/alexjustesen/speedtest-tracker">Speedtest tracker</a>: Self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service</li>
+  <li><a href="https://uptime.kuma.pet">Uptime Kuma</a>: Self-hosted uptime monitoring tool</li>
+  <li><a href="https://help.dropbox.com/installs/linux-commands">Dropbox</a>: Backup</li>
+  <li><a href="https://documentation.ubuntu.com/server/how-to/samba/file-server/">Samba</a>: File share</li>
+  <li><a href="https://netatalk.io">Netatalk</a>: Open source file server/AppleTalk server</li>
+  <li><a href="https://nicolargo.github.io/glances/">Glances</a>: System monitoring tool written in Python</li>
+  <li><a href="https://github.com/dylanaraps/neofetch">neofetch</a></li>
+</ul>
+<br />
+
+<h3>Miscellanious</h3>
+<ul>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04">Node.js + NPM</a>
+    <ul>
+      <li><a href="https://pm2.keymetrics.io">pm2 (daemon process manager)</a></li>
+    </ul>
+  </li>
+  <li>Git</li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu">Initial server setup for Ubuntu</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-keep-ubuntu-22-04-servers-updated">Keeping Ubuntu updated</a></li>
+  <li>ZFS
+    <ul>
+      <li><a href="https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/">ZFS 101</a></li>
+      <li><a href="https://manishrjain.com/zfs-raid-ubuntu">Detailed Guide to Setting Up ZFS RAID on Ubuntu 22.04</a></li>
+      <li><a href="https://wiki.ubuntu.com/ZFS/ZPool">ZPool docs</a></li>
+      <li><a href="https://elza.me/blog/2021/01/ZFS/">Setting Up raid1 (Mirrored Pool) ZFS on Ubuntu as a Desktop Data Drive</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3>More images</h3>
+<img src="../assets/img/scn_logo.jpg" height="186px" width="186px" />
+<a href="../assets/img/scn_neofetch.png"><img src="../assets/img/scn_neofetch_sm.jpg" height="186px" width="300px" /></a>
+
+<?php require_once("../partial/page-footer.php"); ?>
