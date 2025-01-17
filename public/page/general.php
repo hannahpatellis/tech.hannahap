@@ -11,6 +11,7 @@ require_once("../partial/page-header.php");
   <li><a href="https://archive.org">Internet Archive</a>: Software, books, manuals, and more can be found here for older devices</li>
   <li><a href="https://webosarchive.org">webOS Archive</a>: Abandonware software and large community for Palm/HP webOS devices</li>
   <li><a href="https://palmdb.net">PalmDB</a>: Abandonware software for Palm OS devices</li>
+  <li><a href="https://theretroweb.com/">The Retro Web</a>: Documentation of retro hardware</li>
 </ul>
 <br />
 
