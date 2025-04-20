@@ -17,7 +17,7 @@ require_once("../partial/page-header.php");
     <li>2017, rose gold, Core i7 or i5 model</li>
   </ul>
   <li><b>Compaq Armada 7800</b></li>
-  <li><b>Compaq Presario 1800</b></li>
+  <li><b>Compaq Presario 1700</b></li>
   <li><b>Amiga stuff</b></li>
   <ul>
     <li>Ah! The next frontier! I've been dying to dip my toes into the Amiga world. Preference is an Amiga 500, 500 Plus, 600, or 1200 due to form-factor.</li>

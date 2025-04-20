@@ -148,7 +148,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><a href="/page/thinkpad_390e.php"><img src="assets/img/thinkpad_390e.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/thinkpad_390e.php"><h4>IBM ThinkPad 390E 2626-D0U</h4></a>
-				<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh)</p>
+				<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh) and Windows 98SE</p>
 			</td>
 		</tr>
 		<tr>
