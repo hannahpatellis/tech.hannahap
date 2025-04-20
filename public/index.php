@@ -174,7 +174,6 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 					<li>iPod touch 8GB (4rd generation)</li>
 					<li>HP TouchPad</li>
 					<li>iPhone 5</li>
-					<li>iPhone 6S</li>
 				</ul>
 			</td>
 		</tr>
