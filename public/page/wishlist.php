@@ -18,6 +18,9 @@ require_once("../partial/page-header.php");
   </ul>
   <li><b>Compaq Armada 7800</b></li>
   <li><b>Compaq Presario 1700</b></li>
+  <ul>
+    <li>Both of these Compaq laptops were laptops I had as a kid. So sad I didn't think to keep them...</li>
+  </ul>
   <li><b>Amiga stuff</b></li>
   <ul>
     <li>Ah! The next frontier! I've been dying to dip my toes into the Amiga world. Preference is an Amiga 500, 500 Plus, 600, or 1200 due to form-factor.</li>

@@ -148,7 +148,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><a href="/page/thinkpad_390e.php"><img src="assets/img/thinkpad_390e.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/thinkpad_390e.php"><h4>IBM ThinkPad 390E 2626-D0U</h4></a>
-				<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh) and Windows 98SE</p>
+				<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh)</p>
 			</td>
 		</tr>
 		<tr>
@@ -156,6 +156,13 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td>
 				<a href="/page/thinkpad_x230_tablet.php"><h4>Lenovo ThinkPad X230 Tablet 3437-3KU</h4></a>
 				<p>Status: Running Kubuntu 24.10 (Ubuntu + KDE Plasma 6.1)</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="/page/portege_3010ct.php"><img src="assets/img/portege_3010ct.jpg" height="250px" width="250px" /></a></td>
+			<td>
+				<a href="/page/portege_3010ct.php"><h4>Toshiba Portégé 3010CT</h4></a>
+				<p>Status: Running Windows 98 Second Edition</p>
 			</td>
 		</tr>
 		<tr>

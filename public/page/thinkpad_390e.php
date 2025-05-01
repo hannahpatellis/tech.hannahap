@@ -9,7 +9,7 @@ require_once("../partial/page-header.php");
 
 <img src="../assets/img/thinkpad_390e.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
-<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh) and Windows 98SE</p>
+<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh)</p>
 <ul>
   <li>Model year: 1999</li>
   <li>14.1" TFT (1024x768)</li>
