@@ -17,6 +17,10 @@ require_once("../partial/page-header.php");
 
 <h2>Software I use</h2>
 <ul>
+  <li><a href="https://legacyupdate.net">Legacy Update</a>: Update old versions of Windows (Windows 2000 and up) that are unable to reach Microsoft update servers</li>
+  <ul>
+    <li><a href="https://windowsupdaterestored.com">Windows Update Restored</a>: For updating Windows 9x versions and NT 4</li>
+  </ul>
   <li><a href="https://github.com/atauenis/webone">WebOne HTTP Proxy Server</a>: WebOne is a proxy server for devices that don't support modern SSL or the modern web in general. Built using Microsoft .NET 6.0, it will run on Windows or Linux systems. I run this using a Raspberry Pi Model 3B with Raspberry Pi OS Lite connected to a network via ethernet</li>
   <ul>
     <b>Alternative web proxy packages</b>

@@ -9,7 +9,7 @@ require_once("../partial/page-header.php");
 
 <img src="../assets/img/thinkpad_x230_tablet.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
-<p>Status: Running Debian 12</p>
+<p>Status: Running Haiku R1 Beta 5</p>
 <ul>
   <li>Model year: 2012</li>
   <li>12.5” (F)WXGA (1366x768) touch-enabled</li>

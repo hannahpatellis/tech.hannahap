@@ -155,7 +155,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><a href="/page/thinkpad_x230_tablet.php"><img src="assets/img/thinkpad_x230_tablet.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/thinkpad_x230_tablet.php"><h4>Lenovo ThinkPad X230 Tablet 3437-3KU</h4></a>
-				<p>Status: Running Kubuntu 24.10 (Ubuntu + KDE Plasma 6.1)</p>
+				<p>Status: Running Haiku R1 Beta 5</p>
 			</td>
 		</tr>
 		<tr>
@@ -163,6 +163,13 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td>
 				<a href="/page/portege_3010ct.php"><h4>Toshiba Portégé 3010CT</h4></a>
 				<p>Status: Running Windows 98 Second Edition</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="/page/evo_n620c.php"><img src="assets/img/evo_n620c.jpg" height="250px" width="250px" /></a></td>
+			<td>
+				<a href="/page/evo_n620c.php"><h4>Compaq Evo N620c</h4></a>
+				<p>Status: Running Windows XP Professional SP3</p>
 			</td>
 		</tr>
 		<tr>
