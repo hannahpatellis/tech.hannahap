@@ -1,6 +1,6 @@
 <?php
 
-if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8083') {
+if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:80') {
 	$retroTreatment = false;
 } else if($_SERVER['HTTP_HOST'] == 'retro.hannahap.com') {
 	$retroTreatment = true;
@@ -21,6 +21,15 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 	<?php if($retroTreatment == false) {print('<link rel="stylesheet" type="text/css" href="../assets/style.css">');} ?>
 </head>
 <body>
+	<?php if($retroTreatment == false) { ?>
+	<nav>
+		<ul class="nav-container">
+			<a class="nav-link" href="https://hannahap.com" title="Back to Hannah A. Patellis' website">
+				<li class="nav-item"><img id="flag-logo" src="/assets/circle-arrow-left-light.svg" alt="Back arrow" /> Back to hannahap.com</li>
+			</a>
+		</ul>
+	</nav>
+	<?php } ?>
 	<center><h1>Hi! Welcome to Hannah HQ!</h1></center>
 	<center><h2><i>Home to cat fur-covered tech, retro bytes, and miscellaneous floating internet stuff.</i></h2></center>
 	<br />
