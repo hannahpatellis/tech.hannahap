@@ -17,7 +17,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Hannah HQ</title>
+	<title>Tech Projects of Hannah A. Patellis</title>
 	<?php if($retroTreatment == false) {print('<link rel="stylesheet" type="text/css" href="../assets/style.css">');} ?>
 </head>
 <body>
@@ -30,12 +30,8 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 		</ul>
 	</nav>
 	<?php } ?>
-	<center><h1>Hi! Welcome to Hannah HQ!</h1></center>
-	<center><h2><i>Home to cat fur-covered tech, retro bytes, and miscellaneous floating internet stuff.</i></h2></center>
-	<br />
-	<br />
-	<h3>Introduction</h3>
-	<p>Hi friend! I'm Hannah A. Patellis. Welcome to headquarters.</p>
+	<h1>Introduction</h1>
+	<p>Hi friends! I'm Hannah A. Patellis. Welcome to the workbench.</p>
 	<p>This site is dedicated to my tech projects, both vintage and not-so-vintage.</p>
 	<p>Click a photo to learn more about each device/category. Pages include...</p>
 	<ul>
@@ -84,71 +80,71 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 	</table>
 	<br />
 	<br />
-	<h3 id="dailydrivers">My daily-drivers</h3>
+	<h2 id="dailydrivers">My daily-drivers</h2>
 	<table>
 		<tr>
 			<td><img src="assets/img/mbp_m1.jpg" height="250px" width="250px" /></td>
 			<td>
-				<h4>Apple MacBook Pro (14-inch, 2021, M1 Pro)</h4>
-				<p>Status: Running macOS Sequoia 15.2</p>
+				<h3>Apple MacBook Pro (14-inch, 2021, M1 Pro)</h3>
+				<p>Status: Running macOS 26 (Thaoe)</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img src="assets/img/x1.jpg" height="250px" width="250px" /></td>
 			<td>
-				<h4>Lenovo ThinkPad X1 Carbon (Gen 6 2018, Intel Core i7-8650U)</h4>
+				<h3>Lenovo ThinkPad X1 Carbon (Gen 6 2018, Intel Core i7-8650U)</h3>
 				<p>Status: Running Ubuntu 24.10</p>
 			</td>
 		</tr>
 	</table>
 	<br />
 	<br />
-	<h3 id="servers">My servers</h3>
+	<h2 id="servers">My servers</h2>
 	<table>
 		<tr>
 			<td><a href="/page/homelab.php"><img src="assets/img/homeserver.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/homelab.php"><h4>My Home Lab/Home Server</h4></a>
+				<a href="/page/homelab.php"><h3>My Home Lab/Home Server</h3></a>
 				<p>Status: Running Ubuntu Server 24.04.1 LTS</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/etower_533id2.php"><img src="assets/img/etower_533id2.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/etower_533id2.php"><h4>eMachines eTower 533id2</h4></a>
+				<a href="/page/etower_533id2.php"><h3>eMachines eTower 533id2</h3></a>
 				<p>Status: Running Windows 2000 Server SP4</p>
 			</td>
 		</tr>
 	</table>
 	<br />
 	<br />
-	<h3 id="studio">My studio</h3>
+	<h2 id="studio">My collection</h2>
 	<table>
 		<tr>
 			<td><a href="/page/se_30.php"><img src="assets/img/se_30.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/se_30.php"><h4>Apple Macintosh SE/30</h4></a>
+				<a href="/page/se_30.php"><h3>Apple Macintosh SE/30</h3></a>
 				<p>Status: Running Mac OS 7.5 on a BlueSCSI V2 with Wi-Fi via DaynaPORT emulation</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/powerbook_1400.php"><img src="assets/img/powerbook_1400.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/powerbook_1400.php"><h4>Apple PowerBook 1400c/166</h4></a>
+				<a href="/page/powerbook_1400.php"><h3>Apple PowerBook 1400c/166</h3></a>
 				<p>Status: Running Mac OS 7.6</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/powerbook_g3_pdq.php"><img src="assets/img/powerbook_g3.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/powerbook_g3_pdq.php"><h4>Apple PowerBook G3 Wallstreet II/PDQ</h4></a>
+				<a href="/page/powerbook_g3_pdq.php"><h3>Apple PowerBook G3 Wallstreet II/PDQ</h3></a>
 				<p>Status: Running Mac OS 9.2</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/blackbook.php"><img src="assets/img/blackbook.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/blackbook.php"><h4>Apple MacBook (13" 2008, Black) AKA BlackBook</h4></a>
+				<a href="/page/blackbook.php"><h3>Apple MacBook (13" 2008, Black) AKA BlackBook</h3></a>
 				<p>Status: Running Mac OS X Leopard + Windows Vista Business</p>
 				<p>This is the perfect go-between computer for vintage devices!</p>
 			</td>
@@ -156,35 +152,35 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 		<tr>
 			<td><a href="/page/thinkpad_390e.php"><img src="assets/img/thinkpad_390e.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/thinkpad_390e.php"><h4>IBM ThinkPad 390E 2626-D0U</h4></a>
+				<a href="/page/thinkpad_390e.php"><h3>IBM ThinkPad 390E 2626-D0U</h3></a>
 				<p>Status: Running OS/2 Warp 4.52 (CP2 Refresh)</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/thinkpad_x230_tablet.php"><img src="assets/img/thinkpad_x230_tablet.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/thinkpad_x230_tablet.php"><h4>Lenovo ThinkPad X230 Tablet 3437-3KU</h4></a>
+				<a href="/page/thinkpad_x230_tablet.php"><h3>Lenovo ThinkPad X230 Tablet 3437-3KU</h3></a>
 				<p>Status: Running Haiku R1 Beta 5</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/portege_3010ct.php"><img src="assets/img/portege_3010ct.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/portege_3010ct.php"><h4>Toshiba Portégé 3010CT</h4></a>
+				<a href="/page/portege_3010ct.php"><h3>Toshiba Portégé 3010CT</h3></a>
 				<p>Status: Running Windows 98 Second Edition</p>
 			</td>
 		</tr>
 		<tr>
 			<td><a href="/page/evo_n620c.php"><img src="assets/img/evo_n620c.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/evo_n620c.php"><h4>Compaq Evo N620c</h4></a>
+				<a href="/page/evo_n620c.php"><h3>Compaq Evo N620c</h3></a>
 				<p>Status: Running Windows XP Professional SP3</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img src="assets/img/handhelds.jpg" height="250px" width="250px" /></td>
 			<td>
-				<h4>Handhelds and PDAs</h4>
+				<h3>Handhelds and PDAs</h3>
 				<ul>
 					<li>Palm III</li>
 					<li>Sony Clié PEG-NX60/U</li>
@@ -203,14 +199,14 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 		<tr>
 			<td><a href="/page/beepy.php"><img src="assets/img/beepy.jpg" height="250px" width="250px" /></a></td>
 			<td>
-				<a href="/page/beepy.php"><h4>Beepy</h4></a>
+				<a href="/page/beepy.php"><h3>Beepy</h3></a>
 				<p>Status: Running Buildroot</p>
 			</td>
 		</tr>
 	</table>
 	<br />
 	<br />
-	<h4>Studio archive</h4>
+	<h2>Collection archive</h2>
 	<ul>
 		<li><a href="/page/trs_80_100.php">Radio Shack TRS-80 Model 100</a></li>
 		<li><a href="/page/powermac_5500.php">Apple Power Macintosh 5500/225</a></li>
@@ -220,7 +216,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 	<br />
 	<center><img src="assets/img/madewith.gif" height="31px" width="88px" /></center>
 	<center><p>Most of these photos were taken with my Palm Pre Plus</p></center>
-	<center><p>This site is stored on <a href="https://github.com/hannahpatellis/retro.hannahap">Github</a></p></center>
+	<center><p>This site is stored on <a href="https://github.com/hannahpatellis/tech.hannahap">Github</a></p></center>
 	<center><p>Follow me on Mastodon! <a href="https://oldbytes.space/@hannahpatellis">@hannahpatellis@oldbytes.space</a></p></center>
 </body>
 </html>

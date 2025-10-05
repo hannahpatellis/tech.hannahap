@@ -1,4 +1,4 @@
-# Hannah A. Patellis' vintage/retro tech homepage
+# Hannah A. Patellis' tech projects homepage
 
 ![Screenshot of the Hannah A. Patellis retro tech homepage running in Netscape 2.02 on a Macintosh SE/30](/docs/se30.jpg)
 

@@ -17,10 +17,10 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title><?php print($title); ?> | Hannah HQ</title>
+	<title><?php print($title); ?> | Tech Projects of Hannah A. Patellis</title>
 	<?php if($retroTreatment == false) {print('<link rel="stylesheet" type="text/css" href="../assets/style.css">');} ?>
 </head>
 <body>
-	<center><h1>Hi! Welcome to <a href="/index.php">Hannah HQ!</a></h1></center>
+	<center><h1>Tech projects of <a href="/index.php">Hannah A. Patellis</a></h1></center>
 	<br />
 	<br />
