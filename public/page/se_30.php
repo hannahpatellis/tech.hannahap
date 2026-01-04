@@ -13,10 +13,11 @@ require_once("../partial/page-header.php");
 <ul>
   <li>Model year: 1989</li>
   <li>9”, monochrome, 512×342</li>
-  <li>RAM: 8MB</li>
+  <li>RAM: 64MB</li>
   <li>Motorola 68030</li>
   <li>Floppy drive (SuperDrive)</li>
   <li>BlueSCSI v2</li>
+  <li>BMOW Mac ROM-inator II</li>
 </ul>
 <br />
 
@@ -42,8 +43,8 @@ require_once("../partial/page-header.php");
 <h3>Upgrades I've made</h3>
 <ul>
   <li><a href="https://www.amazon.com/gp/product/B009NQMESS">Noctua NF-A6x25 FLX (3-Pin, 60mm)</a>: Replacement fan I used in both SE and SE/30</li>
-  <li><a href="https://bluescsi.com">BlueSCSI version 2</a>: 50 pin desktop version with WiFi</li>
-  <li><a href="https://www.amazon.com/gp/product/B01M22RI5U">JSER SD Male to Female Extension Kit, Soft Flat FPC Cable, 25cm</a>: Connected to the BlueSCSI so I can swap SDs without cracking the case open</li>
+  <li><a href="https://bluescsi.com">BlueSCSI version 2 (revision 2023.03a)</a>: 50 pin desktop version with WiFi</li>
+  <li><a href="https://www.bigmessowires.com/mac-rom-inator-ii/">BMOW Mac ROM-inator II</a>: ROM replacement with true 32-bit support</li>
 </ul>
 
 <?php require_once("../partial/page-footer.php"); ?>

@@ -93,7 +93,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><img src="assets/img/x1.jpg" height="250px" width="250px" /></td>
 			<td>
 				<h3>Lenovo ThinkPad X1 Carbon (Gen 6 2018, Intel Core i7-8650U)</h3>
-				<p>Status: Running Ubuntu 24.10</p>
+				<p>Status: Running Ubuntu 25.10 + Windows 11 Pro</p>
 			</td>
 		</tr>
 	</table>
@@ -105,7 +105,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><a href="/page/homelab.php"><img src="assets/img/homeserver.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/homelab.php"><h3>My Home Lab/Home Server</h3></a>
-				<p>Status: Running Ubuntu Server 24.04.1 LTS</p>
+				<p>Status: Running Ubuntu Server 24.04.3 LTS</p>
 			</td>
 		</tr>
 		<tr>
@@ -124,14 +124,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			<td><a href="/page/se_30.php"><img src="assets/img/se_30.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/se_30.php"><h3>Apple Macintosh SE/30</h3></a>
-				<p>Status: Running Mac OS 7.5 on a BlueSCSI V2 with Wi-Fi via DaynaPORT emulation</p>
-			</td>
-		</tr>
-		<tr>
-			<td><a href="/page/powerbook_1400.php"><img src="assets/img/powerbook_1400.jpg" height="250px" width="250px" /></a></td>
-			<td>
-				<a href="/page/powerbook_1400.php"><h3>Apple PowerBook 1400c/166</h3></a>
-				<p>Status: Running Mac OS 7.6</p>
+				<p>Status: Running Mac OS 7.1 on a BlueSCSI V2 with Wi-Fi via DaynaPORT emulation</p>
 			</td>
 		</tr>
 		<tr>
@@ -211,6 +204,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 		<li><a href="/page/trs_80_100.php">Radio Shack TRS-80 Model 100</a></li>
 		<li><a href="/page/powermac_5500.php">Apple Power Macintosh 5500/225</a></li>
 		<li><a href="/page/ibook_g3_clamshell.php">Apple iBook G3 (1st gen clamshell)</a></li>
+		<li><a href="/page/powerbook_1400.php">Apple PowerBook 1400c/166</a></li>
 	</ul>
 	<br />
 	<br />

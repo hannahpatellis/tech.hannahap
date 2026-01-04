@@ -9,7 +9,7 @@ require_once("../partial/page-header.php");
 
 <img src="../assets/img/powerbook_1400.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
-<p>Status: Running Mac OS 7.6.1</p>
+<p>Status: Sold</p>
 <ul>
   <li>Model year: 1997</li>
   <li>11.3 SVGA LCD (800x600)</li>

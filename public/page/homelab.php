@@ -9,14 +9,14 @@ require_once("../partial/page-header.php");
 
 <img src="../assets/img/homeserver.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
-<p>Status: Running Ubuntu Server 24.04.1 LTS x86_64</p>
+<p>Status: Running Ubuntu Server 24.04.3 LTS x86_64</p>
 <ul>
   <li>Built: Mid-2023</li>
   <li>microATX form-factor</li>
   <li>Intel Core i7-11700 2.5 GHz 8-Core CPU</li>
   <li>MSI MAG B560M MORTAR WIFI Motherboard</li>
   <li>2x Neo Forza FAYE 16 GB DDR4-3200 RAM</li>
-  <li>2x Silicon Power A55 4TB SATA SSD: Mirrored ZFS storage drives</li>
+  <li>2x <a href="https://www.amazon.com/dp/B00X37FQBU">Whitelabel 3TB 7200RPM HDDs</a>: Mirrored ZFS storage drives</li>
   <li><a href="https://www.amazon.com/dp/B0B25NXWC7">Crucial P3 Plus 1TB PCIe M.2 SSD</a>: Boot drive</li>
   <li><a href="https://www.amazon.com/dp/B09PBMQ8YY">TPM 2.0 Module</a></li>
 </ul>
@@ -25,8 +25,7 @@ require_once("../partial/page-header.php");
 <h3>Case build</h3>
 <ul>
   <li><a href="https://www.amazon.com/ASUS-AP201-MicroATX-Tempered-Tool-Free/dp/B0B99J7T35">ASUS Prime AP201 case</a>: black, H 13.78" x W 8.07" x D 18.11”</li>
-  <li>Thermaltake Smart 500W PSU</li>
-  <li>2x <a href="https://www.amazon.com/dp/B0736GRX7W">CableMod ModMesh Sleeved SATA 3 cables</a>: white, 30cm</li>
+  <li>Corsair RM750x modular ATX 3.1 PSU</li>
   <li><a href="https://www.amazon.com/dp/B07654PNFQ">Noctua NF-F12 case fan</a>: black, 4-Pin, 120mm</li>
   <li><a href="https://www.amazon.com/dp/B08HH6G48J">Noctua NH-U9S CPU cooler</a>: black, 92mm</li>
 </ul>
@@ -34,20 +33,22 @@ require_once("../partial/page-header.php");
 
 <h3>Software I'm running</h3>
 <ul>
+  <li><a href="https://tailscale.com">Tailscale</a></li>
   <li><a href="https://jellyfin.org">Jellyfin</a>: Media server</li>
-  <li><a href="https://www.photoprism.app">PhotoPrism</a>: Photo database/host</li>
+  <li><a href="https://www.photoprism.app">PhotoPrism</a>: Photo database/host (Will be replaced by Immich)</li>
+  <li><a href="https://immich.app">Immich</a>: Photo database/host (Will replace PhotoPrism)</li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04">Docker</a></li>
   <li><a href="https://www.portainer.io/install">Portainer Community Edition</a>: Docker management</li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04">Apache</a>: Web server</li>
-  <li><a href="https://pi-hole.net">Pi-hole</a>: DNS server + network-wide ad blocker</li>
   <li><a href="https://github.com/atauenis/webone">WebOne</a>: HTTP 1.x proxy that makes old web browsers usable again in the Web 2.0 world</li>
-  <li><a href="https://nginxproxymanager.com">Nginx Proxy Manager</a>: Expose web services on your network</li>
   <li><a href="https://github.com/alexjustesen/speedtest-tracker">Speedtest tracker</a>: Self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service</li>
   <li><a href="https://uptime.kuma.pet">Uptime Kuma</a>: Self-hosted uptime monitoring tool</li>
   <li><a href="https://help.dropbox.com/installs/linux-commands">Dropbox</a>: Backup</li>
   <li><a href="https://documentation.ubuntu.com/server/how-to/samba/file-server/">Samba</a>: File share</li>
   <li><a href="https://netatalk.io">Netatalk</a>: Open source file server/AppleTalk server</li>
   <li><a href="https://nicolargo.github.io/glances/">Glances</a>: System monitoring tool written in Python</li>
+  <li><a href="https://beszel.dev">Beszel</a>: Systems monitoring tool for both this server and my cloud server</li>
+  <li><a href="https://netalertx.com">NetAlertX</a>: Network monitoring</li>
   <li><a href="https://github.com/dylanaraps/neofetch">neofetch</a></li>
 </ul>
 <br />
