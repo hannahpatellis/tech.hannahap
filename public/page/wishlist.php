@@ -19,7 +19,7 @@ require_once("../partial/page-header.php");
   <li><b>Compaq Armada 7800</b></li>
   <li><b>Compaq Presario 1700</b></li>
   <ul>
-    <li>Both of these Compaq laptops were laptops I had as a kid. So sad I didn't think to keep them...</li>
+    <li>Both of these Compaq laptops were laptops I had as a kid. So sad I didn't keep them at the time...</li>
   </ul>
   <li><b>Amiga stuff</b></li>
   <ul>
@@ -32,6 +32,8 @@ require_once("../partial/page-header.php");
     <li>HP Pre 3</li>
     <li>Palm Treo 680 in red</li>
     <li>Any Apple PRODUCT(RED) iPods</li>
+    <li>Microsoft Lumia 950</li>
+    <li>Nokia Lumia 730</li>
   </ul>
   <li><b>Software</b></li>
   <ul>

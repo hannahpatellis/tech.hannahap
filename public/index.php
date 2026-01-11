@@ -157,13 +157,6 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 			</td>
 		</tr>
 		<tr>
-			<td><a href="/page/portege_3010ct.php"><img src="assets/img/portege_3010ct.jpg" height="250px" width="250px" /></a></td>
-			<td>
-				<a href="/page/portege_3010ct.php"><h3>Toshiba Portégé 3010CT</h3></a>
-				<p>Status: Running Windows 98 Second Edition</p>
-			</td>
-		</tr>
-		<tr>
 			<td><a href="/page/evo_n620c.php"><img src="assets/img/evo_n620c.jpg" height="250px" width="250px" /></a></td>
 			<td>
 				<a href="/page/evo_n620c.php"><h3>Compaq Evo N620c</h3></a>
@@ -205,6 +198,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'localhost:8
 		<li><a href="/page/powermac_5500.php">Apple Power Macintosh 5500/225</a></li>
 		<li><a href="/page/ibook_g3_clamshell.php">Apple iBook G3 (1st gen clamshell)</a></li>
 		<li><a href="/page/powerbook_1400.php">Apple PowerBook 1400c/166</a></li>
+		<li><a href="/page/portege_3010ct.php">Toshiba Portégé 3010CT</a></li>
 	</ul>
 	<br />
 	<br />

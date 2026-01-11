@@ -9,7 +9,7 @@ require_once("../partial/page-header.php");
 
 <img src="../assets/img/portege_3010ct.jpg" height="250px" width="250px" />
 <h3>Status + specifications</h3>
-<p>Status: Running Windows 98 Second Edition</p>
+<p>Status: Sold</p>
 <ul>
   <li>Model year: 1998</li>
   <li>10.4" TFT (800x600)</li>
